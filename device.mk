@@ -244,14 +244,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
 
 # Include IMSEnabler
-PRODUCT_PACKAGES += \
-    IMSEnabler
+#PRODUCT_PACKAGES += \
+#    IMSEnabler
 
 # WiFi calling
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.data.iwlan.enable=true \
-    persist.radio.ignore_ims_wlan=1 \
-    persist.radio.data_con_rprt=1
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    persist.data.iwlan.enable=true \
+#    persist.radio.ignore_ims_wlan=1 \
+ #   persist.radio.data_con_rprt=1
 
 # Set sensor streaming rate
 PRODUCT_PROPERTY_OVERRIDES += \
