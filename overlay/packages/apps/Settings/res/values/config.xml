@@ -17,4 +17,7 @@
 <resources>
     <!-- Volume Rocker Wake -->
     <bool name="config_show_volumeRockerWake">true</bool>
+    
+    <!-- Variable to set settings dashboard columns from the default 2 -->
+    <integer name="dashboard_num_columns">1</integer>    
 </resources>
