@@ -319,7 +319,7 @@
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     
-    <!-- Show battery fully charged notification -->
-    <bool name="config_showBatteryFullyChargedNotification">true</bool>            
+    <!-- Show battery fully charged notification
+    <bool name="config_showBatteryFullyChargedNotification">true</bool> -->            
 
 </resources>
