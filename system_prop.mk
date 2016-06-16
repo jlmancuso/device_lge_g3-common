@@ -64,3 +64,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.qualcomm.sns.daemon=e \
     debug.qualcomm.sns.hal=e \
     debug.qualcomm.sns.libsensor1=e
+
+# JLMancuso Tweaks
+PRODUCT_PROPERTY_OVERRIDES += \
+    wifi.supplicant_scan_interval=180 \
+    ro.telephony.call_ring.delay=0 \
+    net.hostname=Cyanide-G3 \
+    net.bt.name=Cyanide-G3
